@@ -24,9 +24,9 @@ struct Matrix4 {
 		return
 		{
 			v.x * a + v.y * b + v.z * c + v.w * d,
-			v.x * e + v.y * f + v.z * c + v.w * h,
-			v.x * i + v.y * j + v.z * c + v.w * l,
-			v.x * m + v.y * n + v.z * c + v.w * p
+			v.x * e + v.y * f + v.z * g + v.w * h,
+			v.x * i + v.y * j + v.z * k + v.w * l,
+			v.x * m + v.y * n + v.z * o + v.w * p
 		};
 	}
 };
